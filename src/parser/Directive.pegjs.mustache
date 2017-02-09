@@ -36,7 +36,6 @@ DirectiveBlock =
   BlankLines?
   indent:PushCommonIndent$
   blocks:(
-    (Whitespace* Newline { return null; } / SameOrDeepIndent NotEmptyRawLine)+ /
       FailbackIndent$
   )
   PopIndent$ {

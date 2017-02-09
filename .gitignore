@@ -1,4 +1,3 @@
-/lib
 /node_modules
 *.pegjs
 # Parser.js is generated from PEG.js
